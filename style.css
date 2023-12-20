@@ -1,0 +1,259 @@
+body {
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.button1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -6em;
+}
+
+section:first-of-type a {
+    background-color: #f071a8;
+    padding: .5em;
+    border: black;
+    border-style: solid;
+    border-radius: 3em;
+    color: white;
+    text-decoration: none;
+    margin-top: 1em;
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.gerechten main section:first-of-type a {
+    background-color: #f071a8;
+    border: black;
+    border-style: solid;
+    width: 7em;
+    height: 7em;
+    text-decoration: none;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.gerechten main section:nth-of-type(2) a:first-of-type {
+    background-color: #f071a8;
+    border: black;
+    border-style: solid;
+    width: 8em;
+    height: 8em;
+    text-decoration: none;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+
+.gerechten main section:nth-of-type(2) a:nth-of-type(2) {
+    background-color: #f071a8;
+    border: black;
+    border-style: solid;
+    width: 8em;
+    height: 8em;
+    text-decoration: none;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+.gerechten main section:first-of-type {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.gerechten main section:nth-of-type(2) {
+    margin-top: 1em;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+p {
+    border: black;
+    border-style: solid;
+    background-color: #58c6c7;
+    color: white;
+    padding: 1em;
+    width: 80%;
+    border-radius: .5em;
+}
+
+article {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    margin-top: 1em;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    margin-top: -1.5em;
+}
+
+video {
+    width: 90%;
+    height: auto;
+    border: black;
+    border-style: solid;
+    margin-bottom: -1em;
+    border-radius: .5em;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+
+.vergelijk article:nth-of-type(2) {
+    border: black;
+    border-style: solid;
+    background-color: #58c6c7;
+    color: white;
+    padding: 1em;
+    width: 80%;
+    border-radius: .5em;
+    margin: auto;
+
+}
+
+
+.vergelijk article ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+.vergelijk article:nth-of-type(2) ul li::before{
+    margin-top: 1em;
+    content: "\002B";
+    color: rgb(28, 96, 26);
+    display: inline-block;
+    width: 2em; 
+}
+
+.vergelijk article:nth-of-type(3) {
+    border: black;
+    border-style: solid;
+    background-color: #58c6c7;
+    color: white;
+    padding: 1em;
+    width: 80%;
+    border-radius: .5em;
+    margin: auto;
+
+}
+
+.vergelijk article:nth-of-type(3) ul li::before{
+    margin-top: 1em;
+    content: "\2013";
+    color: rgb(224, 22, 22);
+    display: inline-block;
+    width: 2em; 
+}
+
+.vergelijk footer a{
+
+        background-color: #f071a8;
+        padding: .5em;
+        border: black;
+        border-style: solid;
+        border-radius: 3em;
+        color: white;
+        text-decoration: none;
+        margin-top: 8em;
+        margin-bottom: 2em;
+        width: 10em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.recept main img {
+    width: 90%;
+    border: black;
+    border-style: solid;
+    border-radius: .5em;
+    margin-bottom: 1em;
+}
+
+.burgerimg {
+    display: flex;
+    justify-content: center;
+}
+
+.recept ul {
+    border: black;
+    border-style: solid;
+    background-color: #58c6c7;
+    color: white;
+    padding: 1em;
+    width: 80%;
+    border-radius: .5em;
+    margin: auto;
+}
+
+.recept ul li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.recept ol li {
+    border: black;
+    border-style: solid;
+    background-color: #58c6c7;
+    color: white;
+    padding: 1em;
+    width: 80%;
+    border-radius: .5em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.recept ol li:first-of-type {
+    margin-top: -2em;
+}
